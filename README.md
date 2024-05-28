@@ -2,21 +2,30 @@
 
 Desktop Cleaner is a Python script designed to organize files on your desktop by moving them to specific folders based on their file extensions. It utilizes the Watchdog library to monitor the Desktop directory for any file modifications, such as creations or modifications, and then automatically sorts these files into designated folders.
 
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Configuration](#configuration)
+4. [Supported Extensions](#supported-extensions)
+5. [Library Imports](#library-imports)
+6. [Contributing](#contributing)
+
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
     ```bash
     git clone https://github.com/Puffy12/Desktop-Cleaner.git
     ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
     ```bash
     cd desktop-cleaner
     ```
 
-3. Create and activate a virtual environment:
+3. **Create and activate a virtual environment:**
 
     ```bash
     python -m venv .venv
@@ -24,7 +33,7 @@ Desktop Cleaner is a Python script designed to organize files on your desktop by
     .venv\Scripts\activate       # On Windows
     ```
 
-4. Install dependencies:
+4. **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
@@ -32,9 +41,9 @@ Desktop Cleaner is a Python script designed to organize files on your desktop by
 
 ## Usage
 
-1. Make sure you have Python 3 installed on your system.
+1. **Ensure you have Python 3 installed on your system.**
 
-2. Run the script:
+2. **Run the script:**
 
     ```bash
     python desktop_cleaner.py
@@ -74,5 +83,3 @@ The script utilizes the following Python libraries:
 ## Contributing
 
 Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
-
-
